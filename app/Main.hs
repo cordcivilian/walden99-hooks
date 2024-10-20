@@ -65,6 +65,6 @@ notFoundRoute = Wai.responseLBS
 
 main :: IO ()
 main = do
-    let port = 3000
+    let port = 8888
     putStrLn $ "Server starting on port " ++ show (port :: Int)
-    Warp.run 3000 loggedHooks
+    Warp.run port loggedHooks
