@@ -68,3 +68,5 @@ main = do
     let port = 8888
     putStrLn $ "Server starting on port " ++ show (port :: Int)
     Warp.run port loggedHooks
+
+-- curl -v 'http://127.0.0.1:8888/hephaestion?123=123' -d testing=123
