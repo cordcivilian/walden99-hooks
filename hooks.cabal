@@ -74,6 +74,10 @@ executable hooks
         warp,
         http-types,
         bytestring,
+        text,
+        mtl,
+        aeson,
+        SHA,
 
     -- Directories containing source files.
     hs-source-dirs:   app
